@@ -31,7 +31,8 @@ const Home = () => {
   // Iniciar el audio solo en el lado del cliente
   useEffect(() => {
     if (typeof window !== "undefined") {
-      const newAudio = new Audio("/assets/images/manuelmedrano.mp3"); // URL del audio
+      const newAudio = new Audio("/assets/images/manuelmedrano.mp3");
+      newAudio.volume = 0.5; // URL del audio
       setAudio(newAudio);
     }
   }, []);
