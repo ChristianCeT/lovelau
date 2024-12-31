@@ -2,20 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: "Lazy Dog";
+  src: url("/fonts/lazy_dog.ttf") format("truetype");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: "new september";
+  src: url("/fonts/new_september.otf") format("truetype");
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+* {
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.swiper {
+  width: 100vw;
+  height: 100vh;
+  background-color: wheat;
 }

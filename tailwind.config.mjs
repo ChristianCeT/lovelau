@@ -11,6 +11,10 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        lazy_dog: ["Lazy Dog"],
+        new_september: ["New September"],
+      },
     },
   },
   plugins: [],
