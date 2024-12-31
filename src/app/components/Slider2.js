@@ -8,7 +8,7 @@ const Slider2 = () => {
         <div className="flex items-center ml-12 h-full">
           <Image
             className="object-cover border-[2.5px] border-[#e5a0a0] rounded-full w-64 h-64"
-            src={"/assets/images/Lau2.jpg"}
+            src={"/assets/images/lau2.jpg"}
             width={400}
             height={400}
             alt="lau"
@@ -61,10 +61,10 @@ const Slider2 = () => {
           </div>
           <Image
             className="object-cover border-[2.5px] border-[#88b8da] rounded-full w-64 h-64"
-            src={"/assets/images/Chris2.jpg"}
+            src={"/assets/images/chris2.jpg"}
             width={400}
             height={400}
-            alt="lau"
+            alt="christian"
           ></Image>
         </div>
       </div>
