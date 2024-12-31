@@ -3,6 +3,7 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";
+import Head from "next/head";
 
 import Slider1 from "./components/Slider1";
 import Slider2 from "./components/Slider2";
