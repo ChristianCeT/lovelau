@@ -147,7 +147,7 @@ const Slider5 = () => {
             alt="discord8"
           />
           <div className="text-center mt-3 text-xl">
-            <p className="text-red-500">21 de Noviembre 12:09 pm</p>
+            <p className="text-red-500">25 de Noviembre 12:09 pm</p>
             <p>
               Fuaaa esa fotito tan seria, te contagié mi seriedad, pero sigues
               hermosa 💙
@@ -230,6 +230,22 @@ const Slider5 = () => {
             <p>
               Y esta vez antes de llegar el 31, sé que no estamos en el mejor
               momento pero igual juntos💖
+            </p>
+          </div>
+        </div>
+        <div className="w-full h-full flex flex-col justify-center items-center">
+          <Image
+            className="object-fill w-[1000px] h-[350px]"
+            src={"/assets/images/us.jpg"}
+            width={700}
+            height={700}
+            alt="discord11"
+          />
+          <div className="text-center mt-3 text-xl">
+            <p className="text-red-500">31 de Diciembre 11:21 pm</p>
+            <p>
+              Y finalmente dejando a un lado las cosas negativas, como siempre
+              juntos 🥰
             </p>
           </div>
         </div>
